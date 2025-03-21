@@ -36,18 +36,18 @@ body {
     align-items: center;
     justify-content: center;
     max-width: 900px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1;
+    /* margin: 0 auto; */
+    /* position: relative; */
+    /* z-index: 1; */
 }   
 
 .circular-img {
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    object-fit: cover;
+    /* object-fit: cover; */
     margin-right: 80px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .contatos {
@@ -66,11 +66,12 @@ h1 {
     color: #f5f5ef;
     font-family: 'GatteModernMedium';
     text-align: center;
-    margin-top: 0;
     margin-bottom: 30px;
 }
 
 p {
     color: #f5f5ef;
     text-align: justify;
+    margin-right: 50px;
+    margin-left: 50px;
 }
