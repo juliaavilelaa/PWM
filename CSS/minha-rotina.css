@@ -1,15 +1,35 @@
 @font-face {
     font-family: 'GatteModernMedium';
-    src: url('../Fontes/GatteModernMedium-Wprd9.otf') format('opentype');
+    src: url('../Fontes/GatteModern/GatteModernMedium-Wprd9.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'GatteModernLight';
-    src: url('../Fontes/GatteModernLight-e94GO.otf') format('opentype');
+    src: url('../Fontes/GatteModern/GatteModernLight-e94GO.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DomineBold';
+    src: url(../Fontes/Domine/DomineBold-pBoy.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Domine';
+    src: url(../Fontes/Domine/Domine-xwvj.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Habillta';
+    src: url(../Fontes/Habillta/HabilltaDemo-8O7jM.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Paagluk';
+    src: url('../Fontes/Paagluk/Paagluk-R9dpE.otf') format('opentype');
 }
 
 body {
-    background-color: #841239;
+    background-color: #b61243;
     color: #f5f5ef;
     font-family: 'GatteModernLight';
     display: flex;
@@ -28,7 +48,7 @@ body {
     min-height: 100%;
     z-index: -1; 
     object-fit: cover;
-    opacity: 0.5; 
+    opacity: 0.6; 
 }
 
 .container {
@@ -45,7 +65,7 @@ body {
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    /* object-fit: cover; */
+    object-fit: cover;
     margin-right: 80px;
     /* margin-bottom: 10px; */
 }
@@ -67,9 +87,11 @@ h1 {
     font-family: 'GatteModernMedium';
     text-align: center;
     margin-bottom: 30px;
+    /* letter-spacing: 1px; */
 }
 
 p {
+    font-family: 'Domine';
     color: #f5f5ef;
     text-align: justify;
     margin-right: 50px;
